@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raju's-portfolio</title>
+    <link rel="icon" type="image/jpg" href="images/icons8-r-cloud-96.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <div class="left">
+                <h2><i class="fa-regular fa-user"></i></h2>
+                <h2><span>Raju's</span> portfolio</h2>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Info</a></li>
+                    <li><a href="#">Skill On</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <div class="main">
+        <div class="section1">
+            <div class="sectionleft">
+                <h2>Hi,I am <span>Raju,</span> as an IT student learning about,</h2>
+                <button class="btn">
+                    Download
+                </button>
+                <span id="element"></span>
+            </div>
+            <div class=" sectionright">
+            </div>
+        </div>
+        <div class="section2">
+
+            <h2 id="h2">What i've Done</h2>
+
+            <div class="section2box">
+                <div class="box1">
+                    <h4>Python with flask <i class="fa-brands fa-python"></i></h4>
+                    <p>Since,3years ago..</p>
+                    <button id="btn1" class="button">CHECK PROJECT</button>
+
+                </div>
+                <div class="box2">
+                    <h4>Cyber Security <i class="fa-solid fa-lock"></i></i></h4>
+                    <p>Since,6month ago</p>
+                    <button id="btn2" class="button">CHECK PROJECT</button>
+
+                </div>
+                <div class="box3">
+                    <h4>PHP with Laravel <i class="fa-brands fa-php"></i> <i class="fa-brands fa-laravel"></i></h4>
+                    <p>Since,4month ago</p>
+                    <button id="btn3" class="button">CHECK PROJECT</button>
+
+                </div>
+                <div class="box4">
+                    <h4>TS & REACT <i class="fa-brands fa-react"></i></h4>
+                    <p>Since,2month ago</p>
+                    <button id="btn4" class="button">CHECK PROJECT</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">gitHub <i class="fa-brands fa-github"></i></a></li>
+        </ul>
+
+        <p>&copy; All Right Reserved By Raju Khanal</p>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Fullstack Web development', 'Physicology', 'Entrepreneurship', 'CyberDefence <i class="fa-solid fa-shield-halved"></i>'],
+            typeSpeed: 75,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
